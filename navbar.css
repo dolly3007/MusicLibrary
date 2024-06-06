@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: 40;
+}
+.navbar {
+    background-color: rgb(148 138 182);
+    /* border: 5px solid rgb(0, 0, 0); */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+}
+
+.left {
+    width: 33%;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 100px;
+    /* border: 2px solid blue; */
+    margin: 11px 8px;
+}
+
+.right {
+    width: 66%;
+    /* border: 2px solid red; */
+}
+
+.links {
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid rgb(227, 152, 152); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#link1 {
+    /* height: 30px; */
+    width: 15%;
+    list-style: none;
+    /* border: 2px solid blue; */
+    margin: 21px 12px;
+    padding: 8px 8px;
+    float: right;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+#link2 {
+    /* height: 30px; */
+    width: 35%;
+    list-style: none;
+    /* border: 2px solid blue; */
+    margin: 21px 12px;
+    padding: 8px 8px;
+    float: right;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+#link3 {
+    /* height: 30px; */
+    width: 35%;
+    list-style: none;
+    /* border: 2px solid blue; */
+    margin: 21px 12px;
+    padding: 8px 8px;
+    float: right;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+#link4 {
+    /* height: 30px; */
+    width: 20%;
+    list-style: none;
+    /* border: 2px solid blue; */
+    margin: 21px 12px;
+    padding: 8px 8px;
+    float: right;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.links li a:hover {
+    color: rgb(83, 52, 185);;
+}

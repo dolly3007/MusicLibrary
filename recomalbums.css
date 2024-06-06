@@ -1,0 +1,310 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1160px;
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 100%;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    line-height: 5;
+}
+
+#left {
+    justify-content: center;
+    align-self: center;
+
+}
+
+#search {
+    width: 800px;
+    height: 43px;
+    border: 3px solid rgb(221 16 48);
+    border-radius: 12px;
+    font-family: "PT Sans";
+    font-size: 22px;
+    padding: 0px 14px;
+}
+
+#search:hover {
+    color: #571154;
+    background-color: #c8c7c8;
+    border-color: #571154;
+}
+
+#glass {
+    /* display: inline-block; */
+    height: 46px;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    transform: scale(1);
+}
+#glass:hover{
+    transform: scale(1.2);
+}
+
+#top1 h1 {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 1000;
+    font-size: 80px;
+    color: #571154;
+}
+
+#top1 h2 {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: bold;
+    font-size: 36.5px;
+    color: #de8b98;
+}
+
+.recomalbumscontainer {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 380px;
+    justify-content: space-evenly;
+}
+
+
+.albumcover {
+    display: flex;
+    /* border: 2px solid rgb(85, 167, 30); */
+    margin: 10px 2px;
+    border-radius: 10px;
+    height: 300px;
+    flex-direction: row;
+    flex-basis: 250px;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+    padding: 2px 10px;
+    text-shadow: 1px 1px #000000;
+}
+
+#box1r {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://i.scdn.co/image/ab67616d0000b2730c76be87f513c8361d06d6bd');
+    background-position: 389px 250px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+    transform: scale(1);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box1r:hover {
+    transform: scale(1.11);
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(128, 128, 128);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+}
+#box1r:hover #kmbutton1{
+    opacity:1;
+}
+#box2r {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://upload.wikimedia.org/wikipedia/en/7/7a/If_the_World_Was_Ending_by_Saxe_and_Michaels.png');
+    background-position: 274px 319px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+    transform: scale(1);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+
+}
+
+#box2r:hover {
+    transform: scale(1.11);
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(128, 128, 128);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+}
+#box2r:hover #kmbutton2{
+    opacity:1;
+}
+#box3r {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://i.scdn.co/image/ab67616d0000b273f46c300faaf2220909c11028');
+    background-position: 477px 511px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+    transform: scale(1);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box3r:hover {
+    transform: scale(1.11);
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(128, 128, 128);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+    /* opacity: 80%; */
+}
+#box3r:hover #kmbutton3{
+    opacity:1;
+}
+#box4r {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://i.discogs.com/ESNe-pko1Jj9KRWXkXWOARo_0_2md-r7VTt_gQrVhLI/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzE0/NDAyLTE1ODg3MTE0/OTAtNDQ3OC5qcGVn.jpeg');
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+    transform: scale(1);
+    background-position: 576px 502px;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box4r:hover {
+    transform: scale(1.11);
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(128, 128, 128);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+}
+#box4r:hover #kmbutton4{
+    opacity:1;
+}
+#box5r {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://i1.sndcdn.com/artworks-000203571633-vuv00p-t500x500.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+    transform: scale(1);
+    background-position: 433px 435px
+        /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box5r:hover {
+    transform: scale(1.11);
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(128, 128, 128);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
+
+}
+#box5r:hover #kmbutton5{
+    opacity:1;
+}
+.albumtitle {
+    font-size: 20px;
+    font-family: PT Sans;
+    position: absolute;
+    top: 70px;
+}
+
+.artist {
+    position: relative;
+    left: 3px;
+    bottom: 55px;
+    font-family: PT Sans;
+    font-size: 17px;
+    text-shadow: 1px 1px black;
+}
+
+.albumdescription p {
+    font-size: 14px;
+    font-family: PT Sans;
+    position: relative;
+    top: 70px;
+    text-wrap: wrap;
+    align-content: top;
+}
+
+.kmbutton {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    position: relative;
+    top: 180px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: #948ab6;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.kmbutton:hover{
+    background-color: #8374b6;
+    text-decoration-color: white;
+    border-radius: 10px;
+}
+pre{
+    color: white;
+}
+
+#kmbutton1 {
+    margin: 18px 19px;
+    padding: 7px 60px;
+    color: black;
+    z-index:2;
+    position: relative;
+    left: 0px;
+    top: 110px;
+    font-size: 20px;
+    /* visibility: hidden; */
+}
+
+#kmbutton2 {
+    margin: 18px 19px;
+    padding: 7px 60px;
+    color: black;
+    z-index:2;
+    position: relative;
+    left: 0px;
+    top: 110px;
+    font-size: 20px;
+    /* visibility: hidden; */
+}
+
+#kmbutton3 {
+    margin: 18px 19px;
+    padding: 7px 60px;
+    color: black;
+    z-index:2;
+    position: relative;
+    left: 0px;
+    top: 110px;
+    font-size: 20px;
+    /* visibility: hidden; */
+}
+
+#kmbutton4 {
+    margin: 18px 19px;
+    padding: 7px 60px;
+    color: black;
+    z-index:2;
+    position: relative;
+    left: 0px;
+    top: 110px;
+    font-size: 20px;
+    /* visibility: hidden; */
+}
+
+#kmbutton5 {
+    margin: 18px 19px;
+    padding: 7px 60px;
+    color: black;
+    z-index:2;
+    position: relative;
+    left: 0px;
+    top: 110px;
+    font-size: 20px;
+    /* visibility: hidden; */
+}

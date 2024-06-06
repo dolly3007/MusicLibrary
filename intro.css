@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 550px;
+    background-color: beige;
+}
+
+.firstdivision {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.seconddivision {
+    /* border: 2px solid red; */
+    flex-basis: 50px;
+    color:#571154;
+    
+}
+
+.firstdivision img{
+    width: 677px;
+    margin: 100px 20px;
+    align-self: auto;
+}
+
+#top{
+    width: 50%;
+    font-size: 100px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Dancing Script;
+    margin: 0px;
+    padding: 0px;
+    line-height: 135px;
+    align-self: left;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    order:3;
+}
+
+#mid{
+    width: 50%;
+    font-size: 40px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: bold;
+    margin: 29px;
+    padding: 30px;
+    line-height: 135px;
+    align-self: auto;
+    position: absolute;
+    top: 280px;
+    left: 73px;
+    order: 2;
+}
+
+
+#fpbtn {
+    /* display: inline-block; */
+    margin: 6px 6px;
+    padding: 3px 120px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 497px;
+    height: 50px;
+    background-color: #571154;
+    color: rgb(255, 255, 255);
+    font-family: "LXGW WenKai TC", cursive;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 19px;
+    font-weight: 1000;
+    font-style: italic;
+    position: absolute;
+    bottom: 34px;
+    left: 134px;
+    order: 1;
+}
+
+#fpbtn{
+    text-decoration: none;
+}
+
+#fpbtn:hover{
+    
+    color:rgb(0, 0, 0) ;
+    font-weight: bold;
+}
+
+#fpbtn:hover {
+    cursor: pointer;
+    background-color: #948ab6;
+    text-decoration-color: rgb(255, 255, 255);
+    
+}

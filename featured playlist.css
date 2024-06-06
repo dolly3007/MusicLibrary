@@ -1,0 +1,116 @@
+.containerplaylist {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 120px;
+}
+
+#heading h1 {
+    color:#571154;
+    text-align: center;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 1000;
+    font-size: 80px;
+    /* font-style: bold; */
+}
+#heading h2 {
+    color:#de8b98;
+    text-align: center;
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: bold;
+    font-size: 34.5px;
+    /* font-style: bold; */
+}
+#boxes {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+}
+
+.box {
+    display: flex;
+    /* border: 2px solid rgb(85, 167, 30); */
+    margin: 10px 2px;
+    border-radius: 10px;
+    height: 300px;
+    flex-direction: row;
+    flex-basis: 250px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bold;
+    padding: 2px 10px;
+    text-shadow: 1px 1px #000000;
+}
+
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://img.freepik.com/premium-photo/lofi-music-chill-vibes-sunset-background-wallpaper_684882-324.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://www.womenaloud.co.uk/wp-content/uploads/2016/10/feel-good-songs-1-700x438.png');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+
+}
+
+#box3 {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://live.staticflickr.com/4813/46295436074_4f29eaa9e6.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box4 {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://maxkomusic.com/wp-content/uploads/2017/05/Folk_Acoustic2.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#box5 {
+    display: flex;
+    flex-direction: column;
+    background-image: image-set('https://cf.ltkcdn.net/teens/images/std-xs/312267-340x227-cassettes.jpg');
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+.number {
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    font-family: PT Sans;
+    font-size: 17px;
+}
+
+.heading {
+    font-size: 20px;
+    font-family: PT Sans;
+    position: absolute;
+    top: 272px;
+}
+
+.description p {
+    font-size: 17px;
+    font-family: PT Sans;
+    position: relative;
+    top: 2px;
+    text-wrap: wrap;
+    align-content: top;
+}

@@ -1,16 +1,16 @@
 *{
-    margin: 0px;
-    padding:0px;
+    margin: 0em;
+    padding:0em;
 }
 .container {
     /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     position: relative;
-    top: 100px;
-    width: 100%;
-    height: 550px;
+    top: 6.5rem;
+    width: 100vw;
+    height: 80vh;
     background-color: beige;
 }
 
@@ -18,72 +18,72 @@
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    width: 49%;
+    width: 49vw;
 }
 
 .seconddivision {
     /* border: 2px solid red; */
-    flex-basis: 50px;
+    flex-basis: 50vh;
     color:#571154;
     
 }
 
 .firstdivision img{
-    width: 677px;
-    margin: 100px 20px;
+    width: 90%;
+    height: auto;
+    margin: 6rem 2rem;
     align-self: auto;
 }
 
 #top{
-    width: 50%;
-    font-size: 100px;
+    width: 50vw;
+    font-size: 7rem;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: Dancing Script;
     margin: 0px;
     padding: 0px;
-    line-height: 135px;
+    line-height: 9rem;
     align-self: left;
     position: absolute;
-    top: 70px;
-    left: 120px;
+    top: 0.6em;
+    left: 1em;
     order:3;
 }
 
 #mid{
-    width: 50%;
-    font-size: 40px;
+    width: 50vw;
+    font-size: 2.5rem;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: "LXGW WenKai TC", cursive;
     font-weight: bold;
-    margin: 29px;
-    padding: 30px;
-    line-height: 135px;
+    margin: 2rem;
+    padding: 1.5rem;
+    line-height: 9rem;
     align-self: auto;
     position: absolute;
-    top: 280px;
-    left: 73px;
+    top: 7em;
+    left: 1.8em;
     order: 2;
 }
 
 
 #fpbtn {
     /* display: inline-block; */
-    margin: 6px 6px;
-    padding: 3px 120px;
+    margin: 2rem 2rem;
+    padding: 0.4rem 0.4rem;
     /* border: 2px solid black; */
-    border-radius: 5px;
-    width: 497px;
-    height: 50px;
+    border-radius: 1rem;
+    width: 30em;
+    height: 3em;
     background-color: #571154;
     color: rgb(255, 255, 255);
     font-family: "LXGW WenKai TC", cursive;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-size: 19px;
+    font-size: 1.1rem;
     font-weight: 1000;
     font-style: italic;
     position: absolute;
-    bottom: 34px;
-    left: 134px;
+    bottom: 2rem;
+    left: 6rem;
     order: 1;
 }
 
